@@ -145,6 +145,7 @@ button {
 
 .product {
     width: 31%;
+    height: fit-content;
     border: 1px solid #dfdfdf;
     background-color: white;
     color: black;
