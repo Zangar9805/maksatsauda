@@ -225,3 +225,124 @@ footer a {
 
 /*    detail page styles    */
 
+.detail {
+    padding-top: 90px;
+    margin-bottom: 60px;
+}
+
+.link__category {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.link__category a {
+    color: #0000EE;
+    font-weight: 400;
+}
+
+.detail__card {
+    width: 100%;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 5px 5px 0px rgb(50 50 50 / 20%);
+}
+
+.card__header {
+    margin-bottom: 15px;
+}
+
+.card__body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__img {
+    width: 38%;
+}
+
+.card__img img {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.card__desc {
+    width: 26%;
+    text-align: center;
+}
+
+.card__other {
+    width: 32%;
+    text-align: center;
+}
+
+.product__additional {
+    margin-top: 5px;
+    line-height: 1.4;
+    font-size: 1rem;
+}
+
+.product__additional span {
+    font-size: 0.8rem;
+}
+
+.deep__desc {
+    margin: 20px 0;
+}
+
+.deep__desc p {
+    line-height: 0.9;
+}
+
+.product__table, th, td {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 10px 0;
+}
+
+.detail__caption {
+    font-size: 1rem;
+}
+
+.card__requisite {
+    padding: 20px 0 3px;
+    border-bottom: 1px solid #ccc;
+}
+
+.requisite__text {
+    margin: 7px 0;
+}
+
+.requisite__l {
+    font-size: 0.8rem;
+    color: gray;
+}
+
+.requisite__r {
+    font-size: 1.1rem;
+}
+
+.card__order {
+    margin: 20px 0;
+}
+
+.order__amount {
+    margin-top: 30px;
+}
+
+.order__btn {
+    display: inline-block;
+    width: 100%;
+    margin: 5px 0;
+    background: #1779ba;
+    padding: 15px 0;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.3rem;    
+}
